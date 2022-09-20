@@ -25,16 +25,6 @@ screen.onkey(key="Down", fun=snake.down)
 screen.onkey(key="Left", fun=snake.left)
 screen.onkey(key="Right", fun=snake.right)
 
-# if difficulty == 1:
-#     snake_speed = 0.2
-#     game_is_on = True
-# elif difficulty == 2:
-#     snake_speed = 0.1
-#     game_is_on = True
-# elif difficulty == 3:
-#     snake_speed = 0.05
-#     game_is_on = True
-
 for i in range(1, 4):
     if difficulty == i:
         snake_speed = snake_speeds[i-1]
